@@ -1,0 +1,9 @@
+[package]
+name = "line_server"
+version = "0.1.0"
+edition = "2021"
+authors = ["Abraham Cardenas abecrdns@gmail.com"]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-util = { version = "0.7.11", features = ["full"] }
